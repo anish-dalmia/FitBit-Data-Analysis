@@ -42,7 +42,7 @@ Scatter Plots:
   Days Used vs Average Sleep:
   Illustrates the relationship between usage patterns and average sleep duration.
 
-8. Output:
+6. Output:
 The code outputs visualizations and summary statistics that provide valuable insights into Fitbit user behavior.
 Instructions for Running the Code:
 Ensure all required libraries are installed.
