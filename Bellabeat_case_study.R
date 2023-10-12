@@ -12,12 +12,12 @@ library(skimr)
 
 ## Importing CSV files
 
-daily_activity <- (read_csv("/Users/anish/documents/Rstudio files/Fitbit Case Study/FitBit_tracker_data/dailyActivity_merged.csv"))
-daily_calories <- (read_csv("/Users/anish/documents/Rstudio files/Fitbit Case Study/FitBit_tracker_data/dailyCalories_merged.csv"))
-daily_intensity <- (read_csv("/Users/anish/documents/Rstudio files/Fitbit Case Study/FitBit_tracker_data/dailyIntensities_merged.csv"))
-daily_steps <- (read_csv("/Users/anish/documents/Rstudio files/Fitbit Case Study/FitBit_tracker_data/dailySteps_merged.csv"))
-daily_sleep <- (read_csv("/Users/anish/documents/Rstudio files/Fitbit Case Study/FitBit_tracker_data/sleepDay_merged.csv"))
-weight_log <- (read_csv("/Users/anish/documents/Rstudio files/Fitbit Case Study/FitBit_tracker_data/weightLogInfo_merged.csv"))
+daily_activity <- (read_csv("dailyActivity_merged.csv"))
+daily_calories <- (read_csv("dailyCalories_merged.csv"))
+daily_intensity <- (read_csv("dailyIntensities_merged.csv"))
+daily_steps <- (read_csv("dailySteps_merged.csv"))
+daily_sleep <- (read_csv("sleepDay_merged.csv"))
+weight_log <- (read_csv("weightLogInfo_merged.csv"))
 
 
 ## Previewing Data and preliminary scan for inconsistencies
